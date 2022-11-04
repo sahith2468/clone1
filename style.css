@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Roboto',sans-serif;
+}
+#hero{
+	
+	height:100vh;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#content {
+	width:60%;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	
+	
+}
+#title{
+	
+	font-size:5.5rem;
+	line-height:8rem;
+	font-weight:500;
+}
+#content p {
+	margin-top:2rem;
+	font-size:1.2rem;
+	line-height:2.5rem;
+	font-weight:600;
+
+	
+}
+#start{
+	margin-top:2rem;
+	font-size:2rem;
+	
+	color:white;
+	background-color:black;
+	padding:1rem 1.8rem;
+	border-radius:4rem;
+	
+	
+}
+#members{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	align-self:center;
+
+	
+width:400px;
+align-self:center;
+	
+}
+
+
+
+.number{
+	background-color:black;
+	color:white;
+	font-size:1.4rem;
+	width:50px;
+	height:45px;
+	border-radius:10px;
+	justify-content:center;
+	align-items:center;
+	font-weight:600;
+	animation:back 5s infinite;
+	
+	
+	
+}
+#flash{
+	
+	font-weight:500;
+	font-size:1.4rem;
+	margin-bottom:1rem;
+	animation:blink 1s infinite;
+}
+@keyframes blink{
+	0%{
+		opacity:0;
+	}
+	50%{
+		opacity:1;
+	}
+	100%{
+		opacity:1;
+	}
+}
+@keyframes back{
+	0%{
+		background-color:black;
+		color:aliceblue;
+		border:1px solid #ab1a3a
+	}
+	50%{
+		background-color:aliceblue;
+		color:#151414;
+	}
+	100%{
+		background-color:#151414;
+		color:aliceblue;
+	}
+}
